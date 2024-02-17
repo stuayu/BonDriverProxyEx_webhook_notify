@@ -1,0 +1,4 @@
+.vs
+__pycache__
+.mypy_cache
+client/x64
