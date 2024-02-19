@@ -2,3 +2,7 @@
 __pycache__
 .mypy_cache
 client/x64
+*.yml
+*.log
+*.log.*
+!*.template.yml

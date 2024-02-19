@@ -1,0 +1,8 @@
+# 通知するdiscord Webhook URLを記載
+webhookURL: https://discord.com/api/webhooks/9999999999999999/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# 監視するBonDriverProxyExのIPアドレス
+ProxyEx_IP: 127.0.0.1
+# 監視するBonDriverProxyExのポート番号
+ProxyEx_Port: 1192
+# 接続状態を確認する間隔(sec)
+interval: 10

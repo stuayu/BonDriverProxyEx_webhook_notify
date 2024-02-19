@@ -1,3 +1,4 @@
 discordwebhook
 schedule
-subprocess
+python-box[all]
+loguru
