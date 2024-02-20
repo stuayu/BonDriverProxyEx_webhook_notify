@@ -1,4 +1,5 @@
 import yaml
+import sys
 from box import Box
 import os
 import logging
@@ -7,7 +8,7 @@ from logging.handlers import RotatingFileHandler
 
 
 def ReadConfig(logger) -> Box:
-    confFile = os.path.join(os.path.dirname(__file__), "config.yml")
+    confFile = os.path.join(os.path.dirname(sys.argv[0]), "config.yml")
     with open(os.path.normpath(confFile), mode="r", encoding="utf-8") as yml:
         config: dict = yaml.safe_load(yml)
 

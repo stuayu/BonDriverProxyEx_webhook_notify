@@ -2,6 +2,9 @@
 __pycache__
 .mypy_cache
 client/x64
+build
+dist
+*.spec
 *.yml
 *.log
 *.log.*

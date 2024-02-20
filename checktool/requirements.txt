@@ -2,3 +2,4 @@ discordwebhook
 schedule
 python-box[all]
 loguru
+pyyaml

@@ -10,6 +10,7 @@ main.py上にウェブフックURLとBonDriverProxyExのIPアドレスとポー�
 
 ```
 pip install -r requirements.txt
+pyinstaller .\main.py --onefile --name checktool
 ```
 設定ファイル`config.template.yml`をコピーして`config.yml`を作成します。  
 `start.bat`を実行すると実行されます。
