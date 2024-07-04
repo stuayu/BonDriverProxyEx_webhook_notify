@@ -2,10 +2,15 @@
 __pycache__
 .mypy_cache
 client/x64
+client/client
 build
+*.build
+*.dist
+*.onefile-build
 dist
 *.spec
 *.yml
 *.log
 *.log.*
 !*.template.yml
+BonDriverProxyEx_notify/*

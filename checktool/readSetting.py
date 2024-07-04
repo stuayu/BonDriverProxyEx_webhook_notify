@@ -2,7 +2,6 @@ import yaml
 import sys
 from box import Box
 import os
-import logging
 from loguru import logger
 from logging.handlers import RotatingFileHandler
 
@@ -16,7 +15,7 @@ def ReadConfig(logger) -> Box:
     return Box(config, default_box=True)
 
 
-def logging():
+def clogging():
     handler = RotatingFileHandler("file.log", maxBytes=5000, backupCount=3)
     logger.add(handler)
     logger.info("start logging")

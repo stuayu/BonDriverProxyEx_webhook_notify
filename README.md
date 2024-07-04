@@ -10,7 +10,8 @@ main.py上にウェブフックURLとBonDriverProxyExのIPアドレスとポー�
 
 ```
 pip install -r requirements.txt
-pyinstaller .\main.py --onefile --name checktool
+## pyinstaller .\main.py --onefile --name checktool # Windows Defenderによって駆除される
+python -m nuitka main.py --onefile --standalone --output-filename=checktool.exe
 ```
 設定ファイル`config.template.yml`をコピーして`config.yml`を作成します。  
 `start.bat`を実行すると実行されます。
